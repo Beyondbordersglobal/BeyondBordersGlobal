@@ -24,7 +24,7 @@ function DistributorPage() {
     const body = encodeURIComponent(
       `DISTRIBUTOR INQUIRY\n\nCompany Name: ${f.get("company")}\nCountry: ${f.get("country")}\nBusiness Type: ${f.get("businessType")}\nProduct Interest: ${f.get("interest")}\n\nContact Information:\n${f.get("contact")}`,
     );
-    window.location.href = `mailto:rahul.mahalingam99@gmail.com?subject=Distributor%20Inquiry%20-%20${encodeURIComponent(String(f.get("company") ?? ""))}&body=${body}`;
+    window.location.href = `mailto:rahul.beyondborders@gmail.com?subject=Distributor%20Inquiry%20-%20${encodeURIComponent(String(f.get("company") ?? ""))}&body=${body}`;
     setSent(true);
   }
 

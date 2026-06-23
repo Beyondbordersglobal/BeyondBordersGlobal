@@ -24,7 +24,7 @@ function SupplierPage() {
     const body = encodeURIComponent(
       `SUPPLIER REGISTRATION\n\nCompany Name: ${f.get("company")}\nCountry: ${f.get("country")}\nProduct Category: ${f.get("category")}\nWebsite: ${f.get("website")}\nContact Person: ${f.get("contact")}\nEmail: ${f.get("email")}\nPhone Number: ${f.get("phone")}\n\nProduct Details:\n${f.get("details")}`,
     );
-    window.location.href = `mailto:rahul.mahalingam99@gmail.com?subject=Supplier%20Registration%20-%20${encodeURIComponent(String(f.get("company") ?? ""))}&body=${body}`;
+    window.location.href = `mailto:rahul.beyondborders@gmail.com?subject=Supplier%20Registration%20-%20${encodeURIComponent(String(f.get("company") ?? ""))}&body=${body}`;
     setSent(true);
   }
 

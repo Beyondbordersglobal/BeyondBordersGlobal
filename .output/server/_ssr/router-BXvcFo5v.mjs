@@ -213,7 +213,7 @@ function SiteFooter() {
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "grid md:grid-cols-3 gap-4 pb-10 mb-8 border-b border-primary-foreground/10", children: [
       /* @__PURE__ */ jsxRuntimeExports.jsx(ContactItem, { icon: Phone, label: "Phone", value: "+91 9487501519", href: "tel:+919487501519" }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx(ContactItem, { icon: Mail, label: "Email", value: "rahul.mahalingam99@gmail.com", href: "mailto:rahul.mahalingam99@gmail.com" }),
+      /* @__PURE__ */ jsxRuntimeExports.jsx(ContactItem, { icon: Mail, label: "Email", value: "rahul.beyondborders@gmail.com", href: "mailto:rahul.beyondborders@gmail.com" }),
       /* @__PURE__ */ jsxRuntimeExports.jsx(ContactItem, { icon: MessageCircle, label: "WhatsApp", value: "+91 9487501519", href: "https://wa.me/919487501519" })
     ] }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-primary-foreground/50", children: [

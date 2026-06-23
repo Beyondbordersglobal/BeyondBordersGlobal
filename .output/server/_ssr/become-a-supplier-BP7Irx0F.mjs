@@ -18,7 +18,7 @@ Phone Number: ${f.get("phone")}
 
 Product Details:
 ${f.get("details")}`);
-    window.location.href = `mailto:rahul.mahalingam99@gmail.com?subject=Supplier%20Registration%20-%20${encodeURIComponent(String(f.get("company") ?? ""))}&body=${body}`;
+    window.location.href = `mailto:rahul.beyondborders@gmail.com?subject=Supplier%20Registration%20-%20${encodeURIComponent(String(f.get("company") ?? ""))}&body=${body}`;
     setSent(true);
   }
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "bg-background pt-16 lg:pt-20", children: [

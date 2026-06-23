@@ -34,7 +34,7 @@ function Contact() {
               <div className="space-y-4">
                 <Row icon={Phone} label="Phone" value="+91 9487501519" href="tel:+919487501519" />
                 <Row icon={MessageCircle} label="WhatsApp" value="+91 9487501519" href="https://wa.me/919487501519" />
-                <Row icon={Mail} label="Email" value="rahul.mahalingam99@gmail.com" href="mailto:rahul.mahalingam99@gmail.com" />
+                <Row icon={Mail} label="Email" value="rahul.beyondborders@gmail.com" href="mailto:rahul.beyondborders@gmail.com" />
               </div>
             </div>
             <div className="rounded-2xl bg-card border border-border p-6">
@@ -85,7 +85,7 @@ function InquiryForm() {
     const body = encodeURIComponent(
       `Name: ${f.get("name")}\nCompany: ${f.get("company")}\nCountry: ${f.get("country")}\nEmail: ${f.get("email")}\nPhone: ${f.get("phone")}\nProduct: ${f.get("product")}\nQuantity: ${f.get("quantity")}\n\nMessage:\n${f.get("message")}`,
     );
-    window.location.href = `mailto:rahul.mahalingam99@gmail.com?subject=Trade%20Inquiry%20from%20${encodeURIComponent(String(f.get("name") ?? ""))}&body=${body}`;
+    window.location.href = `mailto:rahul.beyondborders@gmail.com?subject=Trade%20Inquiry%20from%20${encodeURIComponent(String(f.get("name") ?? ""))}&body=${body}`;
     setSent(true);
   }
   return (

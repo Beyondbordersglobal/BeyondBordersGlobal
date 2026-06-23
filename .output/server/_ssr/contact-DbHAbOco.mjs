@@ -26,7 +26,7 @@ function Contact() {
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "space-y-4", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { icon: Phone, label: "Phone", value: "+91 9487501519", href: "tel:+919487501519" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { icon: MessageCircle, label: "WhatsApp", value: "+91 9487501519", href: "https://wa.me/919487501519" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { icon: Mail, label: "Email", value: "rahul.mahalingam99@gmail.com", href: "mailto:rahul.mahalingam99@gmail.com" })
+            /* @__PURE__ */ jsxRuntimeExports.jsx(Row, { icon: Mail, label: "Email", value: "rahul.beyondborders@gmail.com", href: "mailto:rahul.beyondborders@gmail.com" })
           ] })
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "rounded-2xl bg-card border border-border p-6", children: [
@@ -71,7 +71,7 @@ Quantity: ${f.get("quantity")}
 
 Message:
 ${f.get("message")}`);
-    window.location.href = `mailto:rahul.mahalingam99@gmail.com?subject=Trade%20Inquiry%20from%20${encodeURIComponent(String(f.get("name") ?? ""))}&body=${body}`;
+    window.location.href = `mailto:rahul.beyondborders@gmail.com?subject=Trade%20Inquiry%20from%20${encodeURIComponent(String(f.get("name") ?? ""))}&body=${body}`;
     setSent(true);
   }
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("form", { onSubmit, className: "bg-card border border-border rounded-2xl p-8 shadow-luxury space-y-4", children: [

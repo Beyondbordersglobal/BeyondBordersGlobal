@@ -68,7 +68,7 @@ export function SiteFooter() {
 
         <div className="grid md:grid-cols-3 gap-4 pb-10 mb-8 border-b border-primary-foreground/10">
           <ContactItem icon={Phone} label="Phone" value="+91 9487501519" href="tel:+919487501519" />
-          <ContactItem icon={Mail} label="Email" value="rahul.mahalingam99@gmail.com" href="mailto:rahul.mahalingam99@gmail.com" />
+          <ContactItem icon={Mail} label="Email" value="rahul.beyondborders@gmail.com" href="mailto:rahul.beyondborders@gmail.com" />
           <ContactItem icon={MessageCircle} label="WhatsApp" value="+91 9487501519" href="https://wa.me/919487501519" />
         </div>
 
