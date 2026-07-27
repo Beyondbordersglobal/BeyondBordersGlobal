@@ -17,9 +17,9 @@ export const Route = createFileRoute("/products")({
 const PRODUCTS = [
   { icon: Sprout, name: "Agricultural Products", tag: "Grains · Pulses · Produce" },
   { icon: Sparkles, name: "Coconut Products", tag: "Oil · Milk · Coir · Husk" },
-  { icon: Wheat, name: "Spices & Seasonings", tag: "Pepper · Cardamom · Turmeric" },
+  //{ icon: Wheat, name: "Spices & Seasonings", tag: "Pepper · Cardamom · Turmeric" },
   { icon: ShoppingBag, name: "Food Products", tag: "Processed · Packaged · Specialty" },
-  { icon: Factory, name: "Industrial Products", tag: "Raw materials · Components" },
+ // { icon: Factory, name: "Industrial Products", tag: "Raw materials · Components" },
   { icon: Package, name: "Consumer Goods", tag: "FMCG · Household · Personal care" },
   //{ icon: HardHat, name: "Building Materials", tag: "Tiles · Stone · Hardware" },
   { icon: Cog, name: "Machinery & Equipment", tag: "Industrial · Agricultural" },
