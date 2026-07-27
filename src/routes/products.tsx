@@ -21,7 +21,7 @@ const PRODUCTS = [
   { icon: ShoppingBag, name: "Food Products", tag: "Processed · Packaged · Specialty" },
   { icon: Factory, name: "Industrial Products", tag: "Raw materials · Components" },
   { icon: Package, name: "Consumer Goods", tag: "FMCG · Household · Personal care" },
-  { icon: HardHat, name: "Building Materials", tag: "Tiles · Stone · Hardware" },
+  //{ icon: HardHat, name: "Building Materials", tag: "Tiles · Stone · Hardware" },
   { icon: Cog, name: "Machinery & Equipment", tag: "Industrial · Agricultural" },
   { icon: Shirt, name: "Textiles & Apparel", tag: "Fabrics · Garments · Home" },
   { icon: Box, name: "Custom Sourcing", tag: "Tell us — we'll find it" },
